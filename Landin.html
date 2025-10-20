@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital José Cayetano Vasquez | Bienestar y Equilibrio</title>
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!--  Navbar -->
+  <header class="bg-white shadow-md fixed w-full z-50">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-teal-600">Hospital José Cayetano Vasquez</h1>
+      <ul class="hidden md:flex space-x-6 text-gray-600 font-medium">
+        <li><a href="#inicio" class="hover:text-teal-600">Inicio</a></li>
+        <li><a href="#beneficios" class="hover:text-teal-600">Beneficios</a></li>
+        <li><a href="#sobre" class="hover:text-teal-600">Sobre Nosotros</a></li>
+        <li><a href="#contacto" class="hover:text-teal-600">Contacto</a></li>
+      </ul>
+      <a href="http://127.0.0.1:5500/Login.html" class="hidden md:inline-block bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition">Ingresar</a>
+    </nav>
+  </header>
+
+  <!--  Aqui!! -->
+  <section id="inicio" class="pt-32 pb-20 bg-gradient-to-r from-teal-500 to-emerald-600 text-white text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl font-bold mb-4">Cuida tu <span class="text-yellow-200">salud mental</span> cada día</h2>
+      <p class="text-lg mb-8 text-teal-100">Encuentra equilibrio, bienestar y apoyo emocional a través de recursos y acompañamiento profesional.</p>
+      <a href="#beneficios" class="bg-yellow-300 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-200 transition">Descubre más</a>
+    </div>
+  </section>
+
+  <!--  Beneficios -->
+  <section id="beneficios" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-gray-800">Beneficios de una mente sana</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="text-teal-600 text-4xl mb-4">🧘‍♀️</div>
+          <h4 class="text-xl font-semibold mb-2">Equilibrio Emocional</h4>
+          <p>Aprende a manejar el estrés y las emociones con calma y consciencia.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="text-teal-600 text-4xl mb-4">💬</div>
+          <h4 class="text-xl font-semibold mb-2">Apoyo Profesional</h4>
+          <p>Conéctate con especialistas que te acompañarán en tu proceso de bienestar.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="text-teal-600 text-4xl mb-4">🌿</div>
+          <h4 class="text-xl font-semibold mb-2">Bienestar Integral</h4>
+          <p>Promueve una vida más plena a través del autocuidado físico y mental.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros???-->
+  <section id="sobre" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h3 class="text-3xl font-bold mb-4 text-gray-800">Sobre Nosotros</h3>
+        <p class="text-gray-600 mb-6">Somos una comunidad dedicada al bienestar mental. Creemos que una mente sana es la base de una vida feliz y equilibrada. Ofrecemos orientación, talleres y espacios de escucha para quienes buscan mejorar su salud emocional.</p>
+        <a href="#contacto" class="bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition">Conócenos más</a>
+      </div>
+      <img src="https://www.bupasalud.com.mx/sites/default/files/inline-images/bupa_apoyo-emocional-3.jpg" alt="Salud mental y bienestar" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 bg-gradient-to-r from-emerald-600 to-teal-500 text-white text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-4">Cuidar tu mente es el primer paso para cuidar tu vida</h3>
+      <p class="mb-8 text-teal-100">Escucha tus pensamientos, abraza tus emociones
+        y date permiso para sanar cada día.</p>
+      <!-- <a href="#" class="bg-yellow-300 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-200 transition">Contáctanos</a> -->
+    </div>
+  </section>
+
+  <!--  Footer -->
+  <footer class="bg-white py-6 text-center text-gray-600 text-sm border-t">
+    © 2025 Hospital José Cayetano Vasquez. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
